@@ -1,0 +1,202 @@
+.header{
+    background-color:  rgb(105, 140, 209) !important;
+}
+
+.nav-link{
+    color: black !important;
+} 
+
+.navbar-brand{
+    color:  rgb(0, 0, 0) !important;
+    font-weight: black !important;
+    
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    height: 93vh;
+    background-size: cover;
+    text-align: center;
+    padding: 280px;
+}
+.hero h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.hero p{
+    color: white;
+}
+
+.hero a {
+    text-decoration: none;
+    color : rgb(255, 255, 255);
+    background-color: rgb(105, 140, 209);
+    padding-top : 9px ;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: rgb(46, 74, 132);
+}
+
+.item{
+    background-color: rgb(255, 245, 245);
+    width: 260px;
+    height: 420px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
+
+.item img{
+    height: 170px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+
+.nama-produk {
+    columns: black;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.harga-produk {
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: -18px;
+}
+
+.item a {
+    text-decoration: none;
+    color : white;
+    background-color: rgb(105, 140, 209);
+    padding-top : 9px ;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.item a:hover {
+    background-color:rgb(46, 74, 132) ;
+ }
+
+
+.menu-produk {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: px;
+    
+}
+
+.footer {
+    text-align: center;
+    background-color:rgb(105, 140, 209);
+    padding: 1px ;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 768px){
+ 
+.item {
+    width: 175px;
+    height: 200px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: rgba(230, 230, 204, 0.842) ;
+
+ }
+
+ .item img {
+    width: 175px;
+    height: 80px;
+    background-size: cover;
+ }
+
+ .nama-produk {
+    font-size: 13px;
+ }
+
+ .harga-produk{
+    font-size: 9px;
+ }
+
+ .menu-produk {
+    display: flex;
+    flex-wrap: wrap;
+ 
+    padding: 10px;
+    
+}
+ .item a{
+    text-decoration: none;
+    font-size: 12px;
+    color : white;
+    background-color: rgb(105, 140, 209);
+    padding-top : 6px ;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+ }
+
+ .item a:hover {
+    background-color:rgb(46, 74, 132) ;
+ }
+
+ .hero {
+    height: 300px;
+    padding: 85px 60px;
+ }
+
+ .hero a:hover{
+    color: white;
+    background-color: rgb(46, 74, 132);
+}
+ 
+ .hero h1{
+    
+    color: white;
+    font-size: 25px;
+ 
+}
+.hero p{
+    color: white;
+    font-size: 10px;
+    
+}
+.hero a {
+    text-decoration: none;
+    font-size: 10px;
+    color : white;
+    background-color: rgb(105, 140, 209);
+    padding-top : 4px ;
+    padding-bottom: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 10px;
+}
+
+
+}
